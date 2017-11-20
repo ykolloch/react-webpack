@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch",
     "dev": "nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd"
   },
@@ -29,6 +29,7 @@
     "eslint": "^4.11.0",
     "eslint-plugin-react": "^7.5.1",
     "express": "^4.16.2",
+    "jest": "^21.2.1",
     "pm2": "^2.7.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
