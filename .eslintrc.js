@@ -1,5 +1,5 @@
 module.exports = {
-  "pareser": 'babel-eslint',
+  "parser": 'babel-eslint',
   "env": {
     "browser": true,
     "commonjs": true,
@@ -17,7 +17,7 @@ module.exports = {
   "plugins": ["react"],
   "rules": {
     "react/prop-types": ["off"],
-    "indent": ["error", 2],
+    "indent": ["error", 4],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
