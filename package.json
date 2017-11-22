@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --watch",
     "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "verify-test": "jest --coverage"
   },
   "babel": {
     "presets": [
